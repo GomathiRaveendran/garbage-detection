@@ -4,7 +4,7 @@
 <br>
 
 <h2>Step 1: Identifying the Garbage</h2>
-<p>With the help of delivery/transport services such as Uber, Zomato, we can identify the littered areas of the city by fixing an inference machine that is customized to identify trash on the go. We've used YOLO for the object identification.</p>
+<p>With the help of delivery/transport services such as Uber, Zomato, we can identify the littered areas of the city by fixing an inference machine with a gps tracker and a smart camera that is customized to identify trash on the go. We've used YOLO for the object detection. The litter identified can be further classified by the to be cardboard, glass, metal, paper, plastic, and trash where trash includes wrappers and other indecipherable litter.</p>
 
 <h2>Step 2: Getting the Location & the Hardware</h2>
 <p>The frames where garbage was detected would be sent along with the GPS co-ordinates of the location where the frame was taken and sent to Node-RED, a service provided by IBM that makes connecting IoT devices to web applications simple.</p>
